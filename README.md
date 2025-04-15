@@ -1,6 +1,6 @@
 
 <p align="center">
-      <img src="ShopApplication/wwwroot/image.png" width="726">
+      <img src="ShopApplication/wwwroot/image.png" width="250">
 </p>
 
 <p align="center">
