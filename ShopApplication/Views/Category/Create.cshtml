@@ -1,0 +1,88 @@
+@model ShopApplication_Models.Category
+
+<form method="post" asp-action="Create">
+    <div class="border p-3 bg-white">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="form-group row">
+            <h2 class="text-info p-lg-3">Add Category</h2>
+        </div>
+        <div class="row">
+            <div class="col-8">
+                <div class="form-group row">
+                    <div class="col-4">
+                        <label asp-for="Name"></label>
+                    </div>
+                    <div class="col-8">
+                        <input asp-for="Name" class="form-control" id="create_name"/>
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
+
+                </div>
+                <div class="form-group row mb-2">
+                    <div class="col-4">
+                        <label asp-for="DisplayOrder"></label>
+                    </div>
+                    <div class="col-8 mt-2">
+                        <input asp-for="DisplayOrder" class="form-control" id="create_order"/>
+                        <span asp-validation-for="DisplayOrder" class="text-danger"></span>
+                    </div>
+
+                </div>
+                <div class="form-group row">
+                    <div class="col-8 offset-4 row">
+
+                        <div class="col m-lg-2">
+                            <input type="submit" class="btn btn-info w-100" value="Create"/>
+                        </div>
+                        <div class="col m-lg-2">
+                            <a asp-action="Index" class="btn btn-success w-100">
+                                <i class="fa-solid fa-right-from-bracket"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                @* Keep this empty *@
+            </div>
+        </div>
+    </div>
+</form>
+
+@section Scripts
+{
+    @{<partial name="_ValidationScriptsPartial"/>}
+}
+@* <script> *@
+@*     async function Create() *@
+@*     { *@
+@*         let name = document.getElementById("create_name").value; *@
+@*         let displayOrder = document.getElementById("create_order").value; *@
+@*         let data = { *@
+@*             Name : name, *@
+@*             DisplayOrder : displayOrder *@
+@*         } *@
+@*         let response = await fetch(`/Create`, { *@
+@* *@
+@*             method: "POST", *@
+@*             headers: { *@
+@*                 'Content-Type': 'application/json;charset=utf-8' *@
+@*             }, *@
+@*             body: JSON.stringify(data) *@
+@*         }); *@
+@* *@
+@*         if (response.ok) { *@
+@*             let successMessage = document.createElement('div'); *@
+@*             successMessage.classList.add('alert', 'alert-success'); *@
+@*             successMessage.textContent = "Created!"; *@
+@* *@
+@*             document.body.appendChild(successMessage); *@
+@* *@
+@*             setTimeout(() => { *@
+@*                 window.location.href = '/Category'; *@
+@*             }, 2000); *@
+@*         } else { *@
+@*             alert("Something went wrong, try agan!"); *@
+@*         } *@
+@*     } *@
+@* </script> *@

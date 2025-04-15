@@ -1,0 +1,15 @@
+D:\ShopApplication\ShopApplication_Models\bin\Release\net8.0\ShopApplication_Models.deps.json
+D:\ShopApplication\ShopApplication_Models\bin\Release\net8.0\ShopApplication_Models.dll
+D:\ShopApplication\ShopApplication_Models\bin\Release\net8.0\ShopApplication_Models.pdb
+D:\ShopApplication\ShopApplication_Models\bin\Release\net8.0\ShopApplication_Utility.dll
+D:\ShopApplication\ShopApplication_Models\bin\Release\net8.0\ShopApplication_Utility.pdb
+D:\ShopApplication\ShopApplication_Models\obj\Release\net8.0\ShopApplication_Models.csproj.AssemblyReference.cache
+D:\ShopApplication\ShopApplication_Models\obj\Release\net8.0\ShopApplication_Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\ShopApplication\ShopApplication_Models\obj\Release\net8.0\ShopApplication_Models.AssemblyInfoInputs.cache
+D:\ShopApplication\ShopApplication_Models\obj\Release\net8.0\ShopApplication_Models.AssemblyInfo.cs
+D:\ShopApplication\ShopApplication_Models\obj\Release\net8.0\ShopApplication_Models.csproj.CoreCompileInputs.cache
+D:\ShopApplication\ShopApplication_Models\obj\Release\net8.0\ShopAppl.135496B3.Up2Date
+D:\ShopApplication\ShopApplication_Models\obj\Release\net8.0\ShopApplication_Models.dll
+D:\ShopApplication\ShopApplication_Models\obj\Release\net8.0\refint\ShopApplication_Models.dll
+D:\ShopApplication\ShopApplication_Models\obj\Release\net8.0\ShopApplication_Models.pdb
+D:\ShopApplication\ShopApplication_Models\obj\Release\net8.0\ref\ShopApplication_Models.dll
